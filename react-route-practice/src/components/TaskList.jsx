@@ -6,19 +6,10 @@ const TaskList = () => {
   return (
     <div>
       <h2>TaskList</h2>
-      <ul style={{
-            background: "white",
-            listStyle:"none",
-            margin: "8px auto",
-            padding: "12px",
-            width: "300px",
-            borderRadius: "8px",
-            boxShadow:" 0px 2px 5px rgba(0, 0, 0, 0.1)",
-            cursor: "pointer",
-            transition:" all 0.3s ease"}}>
+      <ul>
 
             {tasks.map((task => (
-                  <li key={task.id}>
+                  <li key={task.id} className="list-item">
                         <Link to={`/task/${task.id}`}>
                         {task.title}
                         </Link>

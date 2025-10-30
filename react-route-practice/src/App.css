@@ -40,3 +40,19 @@
 .read-the-docs {
   color: #888;
 }
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-item {
+  background: white;
+  margin: 8px auto;
+  padding: 12px;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
